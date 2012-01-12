@@ -16,13 +16,13 @@
     "forever": "0.8.2",
     "socket.io": "0.8.4",
     "socket.io-client": "0.8.4",
-    "connect": "1.7.1",
-    "underscore": "1.1.7"
+    "connect": ">= 1.7.1",
+    "underscore": ">= 1.1.7"
   },
   "scripts": {
      "postinstall": "bin/install.sh",
      "postupdate": "bin/install.sh"
   },
   "main": "index",
-  "engines": { "node": "0.4.12" }
+  "engines": { "node": ">= 0.4.12" }
 }
